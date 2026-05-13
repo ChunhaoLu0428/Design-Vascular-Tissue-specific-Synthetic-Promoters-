@@ -1,0 +1,14 @@
+"Module","PassedTissues","IsVascularModule"
+"black","Immature_xylem",TRUE
+"blue","",FALSE
+"brown","Mature_xylem",TRUE
+"green","",FALSE
+"greenyellow","",FALSE
+"magenta","",FALSE
+"pink","",FALSE
+"purple","",FALSE
+"red","",FALSE
+"salmon","Cabium;Immature_xylem",TRUE
+"tan","",FALSE
+"turquoise","Phloem",TRUE
+"yellow","",FALSE
