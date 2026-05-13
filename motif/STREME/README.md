@@ -1,1 +1,1 @@
-
+The promoter sequences 3200 bp upstream of the start codon 'ATG' of the vascular module genes obtained from WGCNA were used as the positive class, and the non-vascular module genes were used as the negative class.
