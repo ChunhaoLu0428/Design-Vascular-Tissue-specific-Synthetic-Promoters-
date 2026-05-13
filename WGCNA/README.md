@@ -1,3 +1,1 @@
-根据Pto_TS_fpkm_24Tau.txt最后一列的组织特异性参数，分别获得组织特异性参数阈值为1.00、0.99、0.98、0.97、0.96、0.95、0.90和0.85的基因表达数据“expression.txt”。
-将获得的8个“expression.txt”分别进行WGCNA运算。
-根据“vascular_module.r”获得每一个组织特异性阈值下的维管模块。
+Based on the tissue specificity parameter (last column) in the file 'Pto_TS_fpkm_24Tau.txt', extract gene expression data ('expression.txt') with tissue specificity parameter thresholds of 1.00, 0.99, 0.98, 0.97, 0.96, 0.95, 0.90, and 0.85, respectively. Perform WGCNA analysis on each of the eight obtained 'expression.txt' files. Obtain vascular modules under each tissue specificity threshold using 'vascular_module.r'.
