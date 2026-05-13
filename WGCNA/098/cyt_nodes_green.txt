@@ -1,0 +1,27 @@
+nodeName	altName	nodeAttr[nodesPresent, ]
+evm.TU.FRAGSCAFF_104__FRAGMENT_2.3	NA	green
+evm.TU.HIC_ASM_0.504	NA	green
+evm.TU.HIC_ASM_0.647	NA	green
+evm.TU.HIC_ASM_1.189	NA	green
+evm.TU.HIC_ASM_1.2201	NA	green
+evm.TU.HIC_ASM_12.486	NA	green
+evm.TU.HIC_ASM_13.293	NA	green
+evm.TU.HIC_ASM_14.178	NA	green
+evm.TU.HIC_ASM_14.673	NA	green
+evm.TU.HIC_ASM_15.1498	NA	green
+evm.TU.HIC_ASM_16.659	NA	green
+evm.TU.HIC_ASM_17.1349	NA	green
+evm.TU.HIC_ASM_17.1402	NA	green
+evm.TU.HIC_ASM_2.1307	NA	green
+evm.TU.HIC_ASM_6.177	NA	green
+evm.TU.HIC_ASM_6.1862	NA	green
+evm.TU.HIC_ASM_6.2095	NA	green
+evm.TU.HIC_ASM_7.1509	NA	green
+evm.TU.HIC_ASM_7.554	NA	green
+evm.TU.HIC_ASM_9.1762	NA	green
+PB.20327	NA	green
+PB.9670	NA	green
+PB.3510	NA	green
+PB.23181	NA	green
+PB.2656	NA	green
+PB.7943	NA	green
