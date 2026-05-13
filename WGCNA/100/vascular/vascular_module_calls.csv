@@ -1,0 +1,9 @@
+"Module","PassedTissues","IsVascularModule"
+"black","",FALSE
+"blue","",FALSE
+"brown","",FALSE
+"green","",FALSE
+"pink","Mature_xylem",TRUE
+"red","Phloem",TRUE
+"turquoise","",FALSE
+"yellow","",FALSE
