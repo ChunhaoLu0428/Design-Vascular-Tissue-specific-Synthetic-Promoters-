@@ -1,0 +1,24 @@
+nodeName	altName	nodeAttr[nodesPresent, ]
+evm.TU.FRAGSCAFF_57__FRAGMENT_2.42	NA	magenta
+evm.TU.FRAGSCAFF_78__FRAGMENT_1.7	NA	magenta
+evm.TU.HIC_ASM_0.612	NA	magenta
+evm.TU.HIC_ASM_1.1051	NA	magenta
+evm.TU.HIC_ASM_10.219	NA	magenta
+evm.TU.HIC_ASM_10.332	NA	magenta
+evm.TU.HIC_ASM_11.1310	NA	magenta
+evm.TU.HIC_ASM_11.1334	NA	magenta
+evm.TU.HIC_ASM_14.670	NA	magenta
+evm.TU.HIC_ASM_16.460	NA	magenta
+evm.TU.HIC_ASM_3.181	NA	magenta
+evm.TU.HIC_ASM_4.1740	NA	magenta
+evm.TU.HIC_ASM_5.582	NA	magenta
+evm.TU.HIC_ASM_6.3122	NA	magenta
+evm.TU.HIC_ASM_7.1825	NA	magenta
+evm.TU.HIC_ASM_7.2022	NA	magenta
+evm.TU.HIC_ASM_7.470	NA	magenta
+evm.TU.HIC_ASM_7.707	NA	magenta
+evm.TU.HIC_ASM_7.904	NA	magenta
+evm.TU.HIC_ASM_8.1212	NA	magenta
+evm.TU.HIC_ASM_9.1617	NA	magenta
+evm.TU.ORIGINAL_435__FRAGMENT_2.5	NA	magenta
+PB.17353	NA	magenta

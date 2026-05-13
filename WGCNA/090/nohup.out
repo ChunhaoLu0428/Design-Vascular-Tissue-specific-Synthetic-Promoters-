@@ -1,0 +1,225 @@
+Loading required package: dynamicTreeCut
+Loading required package: fastcluster
+
+Attaching package: ‘fastcluster’
+
+The following object is masked from ‘package:stats’:
+
+    hclust
+
+
+
+Attaching package: ‘WGCNA’
+
+The following object is masked from ‘package:stats’:
+
+    cor
+
+
+Attaching package: ‘flashClust’
+
+The following object is masked from ‘package:fastcluster’:
+
+    hclust
+
+The following object is masked from ‘package:stats’:
+
+    hclust
+
+Warning message:
+package ‘stringr’ was built under R version 4.3.3 
+[1] 6430   24
+[1] "evm.TU.FRAGSCAFF_104__FRAGMENT_1.8" "evm.TU.FRAGSCAFF_104__FRAGMENT_2.3"
+[3] "evm.TU.FRAGSCAFF_104__FRAGMENT_3.5" "evm.TU.FRAGSCAFF_14.2"             
+[5] "evm.TU.FRAGSCAFF_16__FRAGMENT_2.8"  "evm.TU.FRAGSCAFF_17__FRAGMENT_2.1" 
+[1] "Pistil"        "Cabium"        "Bark"          "Old_leaf"     
+[5] "Mature_xylem"  "Expanded_leaf"
+ Flagging genes and samples with too many missing values...
+  ..step 1
+[1]   24 6430
+[1] TRUE
+ Flagging genes and samples with too many missing values...
+  ..step 1
+[1]   24 6430
+[1] TRUE
+pdf 
+  2 
+character(0)
+[1]   24 6430
+pickSoftThreshold: will use block size 6430.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 6430 of 6430
+   Power SFT.R.sq   slope truncated.R.sq mean.k. median.k. max.k.
+1      1   0.0327  0.3750         0.6010  1630.0   1640.00   2680
+2      2   0.0448  0.1950         0.1500   763.0    763.00   1410
+3      3   0.0609  0.1280         0.0147   471.0    461.00    913
+4      4   0.0265 -0.0956         0.2030   330.0    325.00    702
+5      5   0.1520 -0.2850         0.5120   248.0    246.00    577
+6      6   0.2770 -0.4600         0.6850   196.0    193.00    492
+7      7   0.3710 -0.6090         0.7710   159.0    154.00    430
+8      8   0.4290 -0.7290         0.8110   133.0    126.00    380
+9      9   0.4920 -0.8260         0.8410   113.0    104.00    340
+10    10   0.5280 -0.9010         0.8420    97.4     88.10    306
+11    12   0.5710 -0.9880         0.8230    75.3     64.30    252
+12    14   0.6100 -1.0200         0.7970    60.5     47.50    213
+13    16   0.7920 -0.9060         0.9170    50.1     37.30    182
+14    18   0.8000 -0.9720         0.8980    42.4     29.60    165
+15    20   0.7750 -1.0800         0.8750    36.5     24.00    156
+16    22   0.7530 -1.1800         0.8370    32.0     19.60    150
+17    24   0.7720 -1.2300         0.8430    28.4     16.00    145
+18    26   0.7850 -1.2700         0.8420    25.4     13.70    140
+19    28   0.7980 -1.3000         0.8440    23.0     11.60    136
+20    30   0.8290 -1.3000         0.8740    21.0      9.89    133
+Warning message:
+executing %dopar% sequentially: no parallel backend registered 
+dev.new(): using pdf(file="Rplots1.pdf")
+pdf 
+  2 
+[1] NA
+Selected Power: 30 (R² = 0.756 , mean.k = 21 )
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file blockwiseTOM-block.1.RData
+ ....clustering..
+ ....detecting modules..
+ ....calculating module eigengenes..
+ ....checking kME in modules..
+  ..reassigning 7 genes from module 2 to modules with higher KME.
+  ..reassigning 1 genes from module 3 to modules with higher KME.
+  ..reassigning 5 genes from module 4 to modules with higher KME.
+  ..reassigning 1 genes from module 5 to modules with higher KME.
+  ..reassigning 5 genes from module 6 to modules with higher KME.
+  ..reassigning 6 genes from module 8 to modules with higher KME.
+  ..reassigning 4 genes from module 9 to modules with higher KME.
+  ..reassigning 1 genes from module 10 to modules with higher KME.
+  ..reassigning 1 genes from module 15 to modules with higher KME.
+  ..reassigning 1 genes from module 19 to modules with higher KME.
+  ..reassigning 1 genes from module 20 to modules with higher KME.
+  ..reassigning 2 genes from module 21 to modules with higher KME.
+  ..reassigning 1 genes from module 23 to modules with higher KME.
+  ..reassigning 3 genes from module 24 to modules with higher KME.
+  ..reassigning 1 genes from module 26 to modules with higher KME.
+  ..reassigning 1 genes from module 34 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.25
+       Calculating new MEs...
+
+       black         blue        brown         cyan        green  greenyellow 
+         305          734          641           99          448          128 
+        grey      magenta midnightblue         pink       purple          red 
+        1200          276           32          290          181          382 
+      salmon          tan    turquoise       yellow 
+         101          109          932          572 
+dev.new(): using pdf(file="Rplots2.pdf")
+pdf 
+  2 
+dev.new(): using pdf(file="Rplots3.pdf")
+pdf 
+  2 
+Loading objects:
+  TOM
+                                       Pistil     Cabium Bark   Old_leaf
+evm.TU.FRAGSCAFF_57__FRAGMENT_2.42 0.00000000 0.00000000    0 0.00000000
+evm.TU.FRAGSCAFF_78__FRAGMENT_1.1  0.00000000 0.00000000    0 0.01664275
+evm.TU.HIC_ASM_1.503               0.00000000 0.14314979    0 0.00000000
+evm.TU.HIC_ASM_1.998               0.13913088 0.04486620    0 0.00000000
+evm.TU.HIC_ASM_15.1488             0.05852985 0.04801083    0 0.01999742
+evm.TU.HIC_ASM_18.1239             0.00000000 0.04605585    0 0.01545142
+                                   Mature_xylem Expanded_leaf Young_leaf
+evm.TU.FRAGSCAFF_57__FRAGMENT_2.42   0.00000000   0.000000000 0.00000000
+evm.TU.FRAGSCAFF_78__FRAGMENT_1.1    0.00000000   0.006787279 0.00000000
+evm.TU.HIC_ASM_1.503                 0.01830325   0.000000000 0.00000000
+evm.TU.HIC_ASM_1.998                 0.00000000   0.000000000 0.06015717
+evm.TU.HIC_ASM_15.1488               0.23753843   0.109361451 0.13158729
+evm.TU.HIC_ASM_18.1239               2.20830759   0.000000000 0.00000000
+                                   Immature_xylem      Apex     Phloem
+evm.TU.FRAGSCAFF_57__FRAGMENT_2.42      0.0000000 0.0000000 0.00000000
+evm.TU.FRAGSCAFF_78__FRAGMENT_1.1       0.0000000 0.0000000 0.00000000
+evm.TU.HIC_ASM_1.503                    2.8368882 0.0000000 0.00000000
+evm.TU.HIC_ASM_1.998                    0.0000000 1.8815118 0.02421754
+evm.TU.HIC_ASM_15.1488                  0.1108492 0.1022769 0.11600670
+evm.TU.HIC_ASM_18.1239                  0.1754203 0.0000000 0.08815381
+                                        Root    Petiole      long1      long2
+evm.TU.FRAGSCAFF_57__FRAGMENT_2.42 0.0000000 0.00000000 0.00000000 0.00000000
+evm.TU.FRAGSCAFF_78__FRAGMENT_1.1  0.0000000 0.00000000 0.00000000 0.00000000
+evm.TU.HIC_ASM_1.503               0.0000000 0.00000000 0.00000000 0.00000000
+evm.TU.HIC_ASM_1.998               0.1204860 0.31735656 0.00000000 0.00000000
+evm.TU.HIC_ASM_15.1488             4.7575903 0.17140925 0.06671563 0.02846825
+evm.TU.HIC_ASM_18.1239             0.4431819 0.02593029 0.01408435 0.00000000
+                                         long3      long4      long5      long6
+evm.TU.FRAGSCAFF_57__FRAGMENT_2.42 0.000000000 0.00000000 0.00000000 0.00000000
+evm.TU.FRAGSCAFF_78__FRAGMENT_1.1  0.000000000 0.00000000 0.00000000 0.00000000
+evm.TU.HIC_ASM_1.503               0.000000000 0.00000000 0.01084714 0.00000000
+evm.TU.HIC_ASM_1.998               0.000000000 0.03934618 0.02725882 0.00000000
+evm.TU.HIC_ASM_15.1488             0.009778555 0.01134296 0.01025612 0.03925259
+evm.TU.HIC_ASM_18.1239             0.000000000 0.00000000 0.00000000 0.00000000
+                                       short1     short2     short3      short4
+evm.TU.FRAGSCAFF_57__FRAGMENT_2.42 0.02598130 0.00000000 0.00000000 0.000000000
+evm.TU.FRAGSCAFF_78__FRAGMENT_1.1  0.00000000 0.00000000 0.00000000 0.000000000
+evm.TU.HIC_ASM_1.503               0.00000000 0.00000000 0.00000000 0.000000000
+evm.TU.HIC_ASM_1.998               0.06988636 0.02235361 0.04713584 0.022062846
+evm.TU.HIC_ASM_15.1488             0.00000000 0.04453308 0.00000000 0.008440036
+evm.TU.HIC_ASM_18.1239             0.00000000 0.00000000 0.00000000 0.000000000
+                                        short5     short6
+evm.TU.FRAGSCAFF_57__FRAGMENT_2.42 0.000000000 0.00000000
+evm.TU.FRAGSCAFF_78__FRAGMENT_1.1  0.000000000 0.00000000
+evm.TU.HIC_ASM_1.503               0.000000000 0.00000000
+evm.TU.HIC_ASM_1.998               0.023855257 0.04118877
+evm.TU.HIC_ASM_15.1488             0.009450849 0.01044950
+evm.TU.HIC_ASM_18.1239             0.000000000 0.00000000
+[1] 16 24
+     Pistil             Cabium              Bark             Old_leaf       
+ Min.   :-0.31790   Min.   :-0.57932   Min.   :-0.72243   Min.   :-0.47471  
+ 1st Qu.:-0.27192   1st Qu.:-0.27410   1st Qu.:-0.32167   1st Qu.:-0.31544  
+ Median :-0.22537   Median :-0.20004   Median :-0.27362   Median :-0.25230  
+ Mean   : 0.31973   Mean   : 0.31507   Mean   : 0.04571   Mean   : 0.04035  
+ 3rd Qu.: 0.06327   3rd Qu.:-0.07118   3rd Qu.:-0.24988   3rd Qu.:-0.21364  
+ Max.   : 4.67522   Max.   : 4.63018   Max.   : 4.54776   Max.   : 4.33659  
+  Mature_xylem     Expanded_leaf       Young_leaf      Immature_xylem   
+ Min.   :-0.4232   Min.   :-0.3294   Min.   :-0.2857   Min.   :-0.5793  
+ 1st Qu.:-0.2925   1st Qu.:-0.2278   1st Qu.:-0.2278   1st Qu.:-0.2925  
+ Median :-0.1946   Median :-0.1614   Median :-0.1423   Median :-0.1970  
+ Mean   : 0.2450   Mean   : 0.3593   Mean   : 0.4188   Mean   : 0.3284  
+ 3rd Qu.: 0.2850   3rd Qu.: 0.2797   3rd Qu.: 0.5489   3rd Qu.: 0.1689  
+ Max.   : 4.5897   Max.   : 4.4176   Max.   : 4.0988   Max.   : 4.6889  
+      Apex              Phloem              Root              Petiole        
+ Min.   :-0.42808   Min.   :-0.57932   Min.   :-0.312830   Min.   :-0.31283  
+ 1st Qu.:-0.22784   1st Qu.:-0.31410   1st Qu.:-0.207297   1st Qu.:-0.22656  
+ Median :-0.08979   Median :-0.23398   Median :-0.004243   Median :-0.06246  
+ Mean   : 0.53527   Mean   : 0.21662   Mean   : 0.555594   Mean   : 0.47749  
+ 3rd Qu.: 0.60735   3rd Qu.:-0.04794   3rd Qu.: 0.812395   3rd Qu.: 0.77217  
+ Max.   : 4.61705   Max.   : 4.09969   Max.   : 4.685098   Max.   : 4.47955  
+     long1             long2             long3             long4        
+ Min.   :-0.7179   Min.   :-0.8275   Min.   :-0.8442   Min.   :-0.8536  
+ 1st Qu.:-0.3506   1st Qu.:-0.3235   1st Qu.:-0.3442   1st Qu.:-0.3928  
+ Median :-0.2780   Median :-0.2965   Median :-0.2899   Median :-0.2813  
+ Mean   :-0.3227   Mean   :-0.3300   Mean   :-0.3477   Mean   :-0.3558  
+ 3rd Qu.:-0.2387   3rd Qu.:-0.2576   3rd Qu.:-0.2593   3rd Qu.:-0.2589  
+ Max.   :-0.1951   Max.   :-0.2041   Max.   :-0.2041   Max.   :-0.2041  
+     long5             long6             short1             short2       
+ Min.   :-0.7649   Min.   :-0.8454   Min.   :-0.86531   Min.   :-0.8477  
+ 1st Qu.:-0.4212   1st Qu.:-0.3442   1st Qu.:-0.42574   1st Qu.:-0.3753  
+ Median :-0.2813   Median :-0.2813   Median :-0.27362   Median :-0.2813  
+ Mean   :-0.3414   Mean   :-0.3425   Mean   :-0.03298   Mean   :-0.3554  
+ 3rd Qu.:-0.2591   3rd Qu.:-0.2516   3rd Qu.:-0.24248   3rd Qu.:-0.2597  
+ Max.   :-0.1981   Max.   :-0.1722   Max.   : 4.69485   Max.   :-0.2041  
+     short3            short4            short5            short6       
+ Min.   :-0.8622   Min.   :-0.8625   Min.   :-0.8486   Min.   :-0.8638  
+ 1st Qu.:-0.3759   1st Qu.:-0.4376   1st Qu.:-0.3844   1st Qu.:-0.4272  
+ Median :-0.2813   Median :-0.2813   Median :-0.2813   Median :-0.2813  
+ Mean   :-0.3562   Mean   :-0.3641   Mean   :-0.3502   Mean   :-0.3582  
+ 3rd Qu.:-0.2636   3rd Qu.:-0.2599   3rd Qu.:-0.2540   3rd Qu.:-0.2591  
+ Max.   :-0.1911   Max.   :-0.2041   Max.   :-0.2041   Max.   :-0.2041  
+pdf 
+  3 
+Warning message:
+package ‘ggplot2’ was built under R version 4.3.3 
