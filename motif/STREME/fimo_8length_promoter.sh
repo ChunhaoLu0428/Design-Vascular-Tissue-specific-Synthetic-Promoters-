@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# 定义基序文件路径
-motif_file="/home/share_data1/luchh/vascular24ts/STREME/100/NRmerged_streme.meme"
+# 定义基序文件路径 τ=100、099、098、097、096、095、090、085
+motif_file="/path/to/each/τ/NRmerged_streme.meme"
 
-# 定义输入的父目录
-input_base_dir="/home/share_data1/luchh/promoter_seq/LM50/"
+# 定义输入的序列目录
+input_base_dir="path/to/each/length/promoter_seq/"
 
 # 定义基序文件的输出根目录
-fimo_output_base_dir="/home/share_data1/luchh/vascular24ts/STREME/100/fimo_out"
+fimo_output_base_dir="/path/to/each/τ/fimo_out"
 
 # 遍历所有子目录（遍历 LM50/ 下的所有子目录）
 for sub_dir in "$input_base_dir"/*/; do
