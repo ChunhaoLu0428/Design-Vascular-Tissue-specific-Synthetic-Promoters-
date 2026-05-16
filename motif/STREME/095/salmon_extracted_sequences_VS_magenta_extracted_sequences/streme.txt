@@ -1,0 +1,73 @@
+********************************************************************************
+STREME - Sensitive, Thorough, Rapid, Enriched Motif Elicitation
+********************************************************************************
+MEME version 5.5.4 (Release date: Fri Jun 16 12:19:08 2023 -0700)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey,
+"STREME: accurate and versatile sequence motif discovery",
+Bioinformatics, Mar. 24, 2021.
+********************************************************************************
+
+
+ALPHABET= ACGT
+
+strands: + -
+
+Background letter frequencies
+A 0.33 C 0.17 G 0.17 T 0.33 
+
+MOTIF 1-ATTCCGGG STREME-1
+letter-probability matrix: alength= 4 w= 8 nsites= 113 E= 1.4e+000
+ 0.872459 0.037842 0.087521 0.002178
+ 0.051299 0.001124 0.050245 0.897332
+ 0.002178 0.037842 0.001124 0.958856
+ 0.002178 0.824553 0.087521 0.085748
+ 0.002178 0.957741 0.037903 0.002178
+ 0.002178 0.001124 0.994520 0.002178
+ 0.097253 0.001124 0.762753 0.138870
+ 0.126021 0.001124 0.821556 0.051299
+
+MOTIF 2-AAATGCAAG STREME-2
+letter-probability matrix: alength= 4 w= 9 nsites= 107 E= 1.9e+000
+ 0.827786 0.001269 0.142076 0.028869
+ 0.859866 0.099665 0.023210 0.017260
+ 0.941029 0.055243 0.001269 0.002459
+ 0.002459 0.042802 0.001269 0.953470
+ 0.002459 0.001269 0.993812 0.002459
+ 0.002459 0.993812 0.001269 0.002459
+ 0.771308 0.001269 0.070606 0.156817
+ 0.984301 0.011971 0.001269 0.002459
+ 0.002459 0.001269 0.993812 0.002459
+
+MOTIF 3-ACTTGAAAA STREME-3
+letter-probability matrix: alength= 4 w= 9 nsites= 113 E= 2.2e+000
+ 0.994983 0.001274 0.001274 0.002469
+ 0.002469 0.993788 0.001274 0.002469
+ 0.002469 0.001274 0.085089 0.911167
+ 0.032922 0.099891 0.001274 0.865913
+ 0.002469 0.001274 0.993788 0.002469
+ 0.852140 0.001274 0.001274 0.145312
+ 0.930029 0.001274 0.001274 0.067422
+ 0.935830 0.023302 0.001274 0.039594
+ 0.916402 0.079855 0.001274 0.002469
+
+********************************************************************************
+Stopped because 3 consecutive motifs exceeded the p-value threshold (0.05).
+********************************************************************************
+COMMAND:	streme --p /home/share_data1/luchh/vascular24ts/STREME/095/salmon_extracted_sequences.fa --n /home/share_data1/luchh/vascular24ts/STREME/095/magenta_extracted_sequences.fa --minw 4 --o salmon_extracted_sequences_VS_magenta_extracted_sequences
+********************************************************************************
+CPU:		localhost.localdomain
+********************************************************************************
+FINALTIME:	30.85 seconds
+********************************************************************************
